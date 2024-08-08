@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+
+}
+
+#header{
+    background: black;
+    height: 65px;
+    position: sticky ;
+    top: 0px;
+}
+#logo{
+    color: aliceblue;
+    position: absolute;
+    top: 7px;
+    left: 95px;
+    font-size: 32px;
+    cursor: pointer;
+    
+}
+span{
+    color: #ffc451;
+}
+.opt{
+    display: inline; 
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+#menus{
+    position: absolute;
+    right: 335px;
+    top: 9px;
+    display: flex;
+}
+.drop{
+    padding: 0;
+    border: 2px solid #ffc451;
+    position: absolute;
+    display:none;
+    margin-top: 6px;
+    background: black;
+}
+.menu-name{
+    padding: 10px;
+}
+.Dropdown1{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 7px;
+}
+.dd:hover .drop{
+    display: block;
+}
+.Dropdown1:hover{
+    color: black;
+    background-color: #ffc451;
+}
+
+.menuname{
+    color: white;
+    text-decoration: none;
+    padding: 26px;
+}
+#btn1{
+    position: absolute;
+    right: 110px;
+    top: 21px;
+    border: 2px solid #ffc451;
+    background: black;
+    color: white;
+    padding: 8px 30px;
+    top: 13px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.active{
+    color: #ffc451;
+}
+.menuname:hover{
+    color: #ffc451;
+}
+#btn1:hover{
+    background: #ffc451;
+    color: black;
+}
+#text{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 26px;
+    color: white;
+}
+#banner{
+    background-image: url(wallpaperbetter\ \(1\).jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    
+
+}
+.textedit{
+    letter-spacing: 2px;
+}
+
+    
+
+#expbtn{
+    margin-left: 46%;
+    margin-top: 1%;
+    border: 2px solid #ffc451;
+    border-radius: 11px;
+    background: black;
+    color: white;
+    padding: 5px 22px;
+    font-size: 18px;
+    cursor: pointer;
+}
+#expbtn:hover{
+    background: #ffc451;
+    color: black;
+}
+#services{
+    
+    overflow: hidden;
+    background: black;
+}
+.box{
+    display: inline-block;
+    width: 28%;
+    margin: 15px;
+    border: 2px solid #ffc451;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: "Poppins",sans-serif;
+    cursor: pointer;
+    margin-left: 33px;
+}
+.sechead{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.head{
+    letter-spacing: 2px;
+    
+}
+.fa-bars{
+    position: absolute;
+    color: white;
+    top: 35%;
+    right: 20px;
+    font-size: 28px;
+    display: none!important;
+}
+
+
+.par{
+    line-height: 27px;
+}
+.box:hover{
+    background: #ffc451;
+    color: black;
+}
+#contact{
+    color: rgb(252, 252, 252);
+    background: black;
+}
+.parent{
+    display: flex;
+    width: 90%;
+    padding: 10px;
+}
+
+.tittle{
+    text-align: center;
+    font-size: 30px;
+}
+.box2{
+    flex: 1;
+}
+.box1{
+    flex: 1;
+}
+.unorder{
+    list-style: none;
+}
+.lis
+{
+    padding-bottom: 15px;
+    color: white;
+}
+.phone{
+    text-decoration: none;
+    color: white;
+}
+.boxz{
+    font-size: 19px;
+}
+.fa-brands{
+    border: 2px solid orange;
+    padding: 8px;
+    border-radius: 50px;
+}
+.fa-brands:hover{
+    background: #ffc451;
+}
+.address{
+        
+    text-decoration: none;
+    color: white;
+}
+.links{
+    color: #ffc451;
+   }
+.textbox{
+    padding: 4px;
+
+}
+.sumbit{
+    padding: 4px;
+    border: 1px solid orange;
+    background: orange;
+    border-radius: 10px;
+}
+/* divison */
+.left{
+    color: #fdfdfc;
+    background: black;
+    width: 40%;
+    border-top: #EB5D1E;
+}
+.form{
+    flex: 1;
+    background: rgb(10 4 4);
+    color: white;
+    border: 2px solid rgb(10, 9, 9);
+    padding: 0px;
+    box-shadow: 4px rgb(0, 0, 0);
+}
+.info{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+.left-add{
+    display: flex;
+    margin-left: 40px;
+    margin: 28px;
+}
+.forms{
+    display: flex;
+    color: white;
+    
+    padding-left: 20px;
+}
+
+.name{
+    flex: 1;
+}
+.names{
+    flex: 1;
+}
+.tables{
+    padding: 6px 0px;
+    margin-top: 12px;
+    margin-left: -19px;
+    width: 90%;
+    border: 2px solid orange;
+    background: #271d1d;
+}
+.subclass{
+    font-size: 19px;
+    padding: 3px;
+}
+.sub1{
+    color: white;
+    margin-left: 25px;
+}
+.subbox{
+    width: 93%;
+    padding: 7px;
+    margin-top: 4px;
+    border: 2px solid orange;
+    background: #271d1d;
+}
+
+.fa-location-dot{
+    font-size: 24px ;
+    color: rgb(255, 249, 249);
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 14px;
+    height: 18px;
+    border: 2px solid rgb(244, 242, 242);
+    background: orange;
+    border-radius: 50px !important;
+    
+
+}
+.fa-phone,.fa-message{
+    font-size: 24px ;
+    color: rgb(255, 249, 249);
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    height: 18px;
+    border: 2px solid rgb(244, 242, 242);
+    background: orange;
+    border-radius: 50px;
+    
+
+}
+#addressbox1{
+    width: 834px;
+    height: 179px;
+    border: 2px solid orange;
+    background: black;
+
+}
+.address1{
+    padding: 10px 17px;
+}
+.address2{
+    padding: 10px 17px;
+}
+.one{
+    font-size: 23px;
+}
+.addressbox{
+    padding-top: 10px;
+    color: white;
+}
+.addressbtn{
+    border: 2px solid orange;
+    margin-left: 40%;
+    margin-top: 32px;
+    padding: 9px 40px;
+    color: #fcfafa;
+    background: orange;
+    border-radius: 15px;
+}
+#addressbox1{
+    width: 834px; 
+    height: 179px; 
+    border: 2px solid orange; 
+    background: #271d1d;
+}
+   
+@media  screen and (min-width:480px) and (max-width:600px)
+ {
+    #menus{
+        display: none;
+    }
+
+    #btn1{
+        display: none!important;
+    }
+    .fa-solid{
+        display:block !important;
+    }
+    #text{
+        text-align: center;
+        margin-top: 20%;
+    }
+    #banner{
+        height: 383px;
+    }
+    #expbtn{
+        margin-left:37%;
+        /* margin-top: 11%;
+        border: 2px solid #ffc451;
+        border-radius: 12px;
+        background: black;
+        color: white;
+        padding: 8px 32px;
+        cursor: pointer; */
+    }
+    .box{
+        width: 85%;
+    }
+    .parent{
+        flex-direction: column;
+        padding-left: 40px;
+        padding-bottom: 20px;
+    }
+   .links{
+    font-size: 35px;
+   }
+   .boxz{
+    padding-bottom: 20px;
+   }
+   .fa-brand{
+    display: block;
+   }
+   .info{
+
+    flex-direction: column;
+   }
+   .left{
+    width: 100%;
+   }
+   #addressbox1{
+    width: 498px;
+    height: 140px;
+
+   }
+   #contact{
+    margin-top: 243px;
+   }
+}
+@media  screen and (min-width:601) and (max-width:720) {
+    
+}
+@media  screen and (min-width:721) and (max-width:900) {
+    
+}
+
+    
+   
+
+
+
